@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="import"
+	href="../js/bower_components/polymer/webcomponents-lite.js"></link>
+
+<!-- Include the poly fill -->
+<script src="js/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- use html import to bring in our custom components -->
+<link rel="import" href="elements/greeting-display.html"></link>
+</head>
+<body>
+	<center><greeting-display></greeting-display></center>
+</body>
+
+<div class="container-fluid">
+<form method="POST" action="uploadFile" enctype="multipart/form-data">
+	<b>File to upload:</b> <input type="file" class="btn btn-default" name="file" accept=".txt">
+	<br>
+	 <input
+		type="submit" value="Parse" class="btn btn-primary btn-sm"> Press here to parse the file!
+</form>
+</div>
+
+
+</html>

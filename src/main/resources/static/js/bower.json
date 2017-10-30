@@ -1,0 +1,17 @@
+{
+  "name": "polymer-demo",
+  "description": "Polymer Demo",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.8.1"
+  }
+}

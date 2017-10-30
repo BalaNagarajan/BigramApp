@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<link rel="import"
+	href="../js/bower_components/polymer/webcomponents-lite.js"></link>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- Include the poly fill -->
+<script src="js/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+
+<!-- use html import to bring in our custom components -->
+<link rel="import" href="elements/greeting-display.html"></link>
+</head>
+<body>
+	<center><greeting-display></greeting-display></center>
+
+
+<p th:text="${result}" />
+</body>
+
+</html>
